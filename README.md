@@ -3,9 +3,6 @@
 自动生成一些有规律的模板代码，看着简洁一些，好像也没啥用
 
 ----
-
-## Why babel-plugin-import
-
 ## Example
 
 #### 安装
@@ -35,6 +32,16 @@ import a, { b, c } from './utils/index'
 import a, { b, c } from './utils/index'
 b(1111)
 c(1111)
+```
+```javascript
+import { Button, Cell } from 'vant'
+// @idle-code: vant as Vue.use({{name}})
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+import { Button, Cell } from 'vant'
+Vue.use(Button)
+Vue.use(Cell)
 ```
 
 #### 使用规则
