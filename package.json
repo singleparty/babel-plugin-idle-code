@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-idle-code",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "auto generate code by simple template",
   "repository": {
     "type": "git",
@@ -23,6 +23,9 @@
   },
   "dependencies": {
     "@babel/parser": "^7.14.5"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "files": [
     "lib",
